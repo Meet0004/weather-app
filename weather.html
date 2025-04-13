@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtmosView</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/weather.css">
+</head>
+<body>
+    <!-- background elements -->
+    <div class="bg-circle circle-1"></div>
+    <div class="bg-circle circle-2"></div>
+    <div class="bg-circle circle-3"></div>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <div class="logo-icon"><i class="fas fa-cloud-moon-rain"></i></div>
+                <div class="logo-text">AtmosView</div>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </header>
+      
+        <div class="search-container">
+            <input type="text" id="cityInput" class="search-input" placeholder="Search for a city (e.g. Paris, Tokyo)" />
+            <button class="search-btn" onclick="getWeather()">
+                <i class="fas fa-search"></i> Search
+            </button>
+        </div>
+      
+        <div id="result">
+            <div class="current-weather">
+                <div class="weather-header">
+                    <div class="location-info">
+                        <h2>Welcome to AtmosView</h2>
+                        <p>Search for a location to see current weather</p>
+                    </div>
+                    <div class="current-time" id="currentTime"></div>
+                </div>
+                <div class="weather-main">
+                    <div class="temperature-container">
+                        <div class="current-temp">--</div>
+                        <div class="temp-unit">°C</div>
+                    </div>
+                    <div class="weather-icon-container">
+                        <div class="weather-icon-bg"></div>
+                        <img src="https://openweathermap.org/img/wn/01d@4x.png" alt="Weather icon" class="weather-icon">
+                    </div>
+                </div>
+                <div class="weather-description">Clear sky</div>
+                <div class="weather-stats">
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-wind"></i></div>
+                        <div>
+                            <div class="stat-value">--</div>
+                            <div class="stat-label">Wind Speed</div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-tint"></i></div>
+                        <div>
+                            <div class="stat-value">--</div>
+                            <div class="stat-label">Humidity</div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-temperature-high"></i></div>
+                        <div>
+                            <div class="stat-value">--</div>
+                            <div class="stat-label">Feels Like</div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fas fa-compress-alt"></i></div>
+                        <div>
+                            <div class="stat-value">--</div>
+                            <div class="stat-label">Pressure</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/weather.js"></script>
+</body>
+</html>
