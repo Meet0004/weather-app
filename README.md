@@ -1,5 +1,4 @@
-# 🌤️ WeatherSphere - Modern Weather App
-## 📝 Description
+#  WeatherSphere - Modern Weather App
 WeatherSphere is a sleek, modern weather application that provides accurate forecasts with beautiful visuals. It's designed to be intuitive while offering all the weather details you need at a glance.
 
 ## Features
@@ -16,3 +15,10 @@ WeatherSphere is a sleek, modern weather application that provides accurate fore
 - **Vanilla JavaScript** - No frameworks
 - **CSS3** - Modern styling with animations
 - **HTML5** - Semantic markup
+
+## Collaboration
+I'm open to collaborating on projects that focus on **building and learning together**! If you're interested, feel free to connect with me.
+
+Connect with me using my Server:
+- **Discord:** [Join Here](https://discord.gg/QqB8srq)
+- **LinkedIn:** [Meet Soni](www.linkedin.com/in/meet-soni-tenacious)
